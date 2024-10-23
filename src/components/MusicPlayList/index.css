@@ -1,0 +1,46 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.img {
+  width: 160px;
+}
+.name-genre-con {
+  margin-left: 10px;
+}
+.nam {
+  font-size: 20px;
+  font-family: roboto;
+  color: white;
+  font-weight: bold;
+}
+.genre {
+  color: #3b82f6;
+  font-family: roboto;
+}
+.right {
+  display: flex;
+  margin-right: 10px;
+  color: white;
+  align-items: center;
+}
+.duration {
+  font-family: roboto;
+  font-weight: bold;
+  padding-right: 30px;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.delete {
+  color: white;
+}
